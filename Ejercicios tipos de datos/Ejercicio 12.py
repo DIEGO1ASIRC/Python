@@ -2,6 +2,6 @@ cantidad_pan = float(input("Porfavor introduzca el número de barras de pan que 
 descuento_numero = "60%"
 descuento = 60 / 100
 precio_total_pan = cantidad_pan * 3.49
-pan_descuento = precio_total_pan * descuento
+pan_descuento = precio_total_pan - (precio_total_pan * descuento)
 
 print("Se han vendido", cantidad_pan, "panes que no son del día a los que se les aplicará un descuento del", descuento_numero, "dándonos un total de", pan_descuento)
