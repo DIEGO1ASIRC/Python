@@ -1,9 +1,8 @@
-pregunta_precio = input("Dime un precio de algun producto")
+pregunta_precio = input("Dime un precio de algun producto ")
 
-euros = pregunta_precio.split(".")
+euros = pregunta_precio.split(".")[0]
 
-centimos = pregunta_precio.split(".")
+centimos = pregunta_precio.split(".")[1]
 
-euros = cadena
 
-print (euros)
+print ("El producto cuesta", euros, "con", centimos, "centimos")
