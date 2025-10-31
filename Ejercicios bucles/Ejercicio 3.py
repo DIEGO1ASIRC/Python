@@ -19,4 +19,3 @@ while numero <= numero_pedido:
 
 
 
-
