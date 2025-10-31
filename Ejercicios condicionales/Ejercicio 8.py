@@ -9,7 +9,7 @@ elif puntuacion == 0.4:
 
     print ("Su nivel de rendimiento es aceptable")
     dinero1 = (dinero*0.4)+dinero
-elif puntuacion >= 0.6
+elif puntuacion >= 0.6:
 
     print ("Su nivel de rendimiento es meritorio")  
     dinero1 = (dinero*0.6)+dinero
