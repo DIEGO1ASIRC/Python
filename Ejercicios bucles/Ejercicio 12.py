@@ -8,6 +8,6 @@ while posicion < len(frase_pedida):
         
         contador = contador + 1
 
-    posicion = posicion +1
+    posicion = posicion + 1
 
 print ("Hemos encontrado un total de", contador, "contenidas en la frase que has puesto")
