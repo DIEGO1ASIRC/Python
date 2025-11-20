@@ -23,3 +23,12 @@ while opcion != 4:
     elif opcion == 3:
 
         print("Este es tu saldo actual: ",saldo)
+    
+    elif opcion == 4:
+
+        print("Saliendo del menú")
+
+    else:
+
+        print("Introduzca una opción válida")
+
