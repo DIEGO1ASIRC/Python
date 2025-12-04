@@ -9,7 +9,7 @@ while numeros_ganadores != "salir":
 
     numeros_ganadores = input("Porfavor introduzca los números ganadores de la lotería: ")
 
-    numeros = ",".join(lista_ganadores)
+    numeros = ",".join(sorted(lista_ganadores))
 
 if numeros_ganadores == "salir":
 
