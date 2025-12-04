@@ -1,4 +1,4 @@
-asignaturas = ["Matermáticas", "Física", "Química", "Historia", "Lengua"]
+asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 
 for materias in asignaturas:
     
