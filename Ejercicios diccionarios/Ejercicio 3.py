@@ -8,7 +8,7 @@ while fruta_pedir not in fruta:
 
 kilos = int(input("Porfavor introduzca cuantos kilos quiere de la fruta: "))
 
-precio_fruta = fruta[fruta_pedir]
+precio_fruta = fruta[fruta_pedir] 
 precio_total = precio_fruta * kilos
 
 print(precio_total)
